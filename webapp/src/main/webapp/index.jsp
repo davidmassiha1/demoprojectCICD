@@ -31,6 +31,7 @@
     <p>Already have an account? <a href="#">Sign in</a>.</p>
   </div>
 
+   <img src="download.png" alt="descriptive text">
    <h1>Tomcat WEB Server Deployment</h1>
 
   
