@@ -1,4 +1,5 @@
 <form action="action_page.php">
+  <img src="download.png" alt="descriptive text">
   <div class="container">
     <h1>New user Register for DevOps Learning</h1>
     <p>Please fill in this form to create an account.</p>
@@ -31,7 +32,6 @@
     <p>Already have an account? <a href="#">Sign in</a>.</p>
   </div>
 
-   <img src="download.png" alt="descriptive text">
    <h1>Tomcat WEB Server Deployment</h1>
 
   
