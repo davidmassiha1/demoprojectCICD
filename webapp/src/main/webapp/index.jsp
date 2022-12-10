@@ -32,7 +32,7 @@
     <p>Already have an account? <a href="#">Sign in</a>.</p>
   </div>
 
-   <h1>Happy CICD Automation!!!</h1>
+   <h1>Tomcat Deployment</h1>
 
   
 </form>
