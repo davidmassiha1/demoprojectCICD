@@ -32,7 +32,7 @@
     <p>Already have an account? <a href="#">Sign in</a>.</p>
   </div>
 
-   <h1>Complete Happy CICD Deployment</h1>
+   <h1>Welcome CICD demo</h1>
 
   
 </form>
