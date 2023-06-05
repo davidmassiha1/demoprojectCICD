@@ -5,8 +5,16 @@ node {
       //archiveArtifacts artifacts: 'target/*.jar', fingerprint: true
    }
 
+    
+
    stage('Dockerserver'){
+    def remote = [:]
+    remote.name = 'Dockerserver'
+    remote.host = '192.168.1.11'    
+    remote.allowAnyHosts = true
     withCredentials([usernamePassword(credentialsId: '73c1ef67-741a-448d-9ba7-8cdac27625b3', usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD')]){
+        remote.user = USERNAME
+        remote.password = PASSWORD
         sh '''
         cd /opt/docker
         docker stop regappv1
