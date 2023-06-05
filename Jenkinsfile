@@ -1,6 +1,7 @@
 node {
       stage('Build') {
-      sh 'mvn clean install'
+              
+      sh "${M2}/mvn clean install"
       //archiveArtifacts artifacts: 'target/*.jar', fingerprint: true
    }
 
