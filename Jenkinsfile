@@ -1,9 +1,5 @@
 node {
-   stage('Checkout') {
-      checkout scm
-   }
-
-   stage('Build') {
+      stage('Build') {
       sh 'mvn clean install'
       //archiveArtifacts artifacts: 'target/*.jar', fingerprint: true
    }
