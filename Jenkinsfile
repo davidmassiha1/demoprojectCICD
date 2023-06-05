@@ -1,7 +1,7 @@
 node {
       stage('Build') {
-              
-      sh "${M2}/mvn clean install"
+       def mavenHome = '/opt/maven/bin'       
+      sh "${mavenHome}/mvn clean install"
       //archiveArtifacts artifacts: 'target/*.jar', fingerprint: true
    }
 
